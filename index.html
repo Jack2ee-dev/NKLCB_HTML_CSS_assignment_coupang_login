@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>로그인</title>
+</head>
+<body>
+    <section class="section">
+        <img src="./img/logo.png" class="logo">
+        <div class="forms">
+            <div class="form-wrap">
+                <span class="form-image image-pos-left">
+                    <img src="./img/id.png" class="image">
+                </span>
+                <input type="email" class="form" placeholder="아이디(이메일)" required/>
+                <div class="invalid">아이디(이메일)는 이메일 형식으로 입력해주세요.</div>
+            </div>
+            <div class="form-wrap">
+                <span class="form-image image-pos-left">
+                    <img src="./img/password.png" class="image">
+                </span>
+                <input type="password" class="form" placeholder="비밀번호" required/>
+                <!-- <div class="form-image image-pos-right password-show-hide">
+                    <input type="checkbox" id="toggle-checkbox">
+                    <img src="./img/show.png" class="password-to-show-image">
+                </div> -->
+                <div class="invalid">비밀번호를 입력해주세요.</div>
+            </div>
+        </div>
+        <div class="functions">
+            <label for="auto-login-checkbox">
+                <input type="checkbox" id="auto-login-checkbox">
+                자동로그인
+            </label>
+            <a href="#" class="find-id-password">아이디(이메일)/비밀번호 찾기 ></a>
+        </div>
+        <div class="buttons">
+            <button class="button login">로그인</button>
+            <div class="divider"></div>
+            <button class="button signup">회원가입</button>
+        </div>
+        <p class="copyright">
+            ⓒCoupang Corp. All rights reserved.
+        </p>
+    </section>
+</body>
+</html>
